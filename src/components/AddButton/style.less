@@ -1,0 +1,25 @@
+.dropdown {
+  position: absolute;
+  background: #fff;
+  border-radius: 4px;
+  margin-top: 2px;
+  text-align: left;
+  border: 1px solid #e9ecef;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: opacity 30s ease, max-height 1s ease;
+}
+
+.open {
+  opacity: 1;
+  height: auto;
+}
+
+.item {
+  padding: 5px;
+
+  &:hover {
+    background: #e9ecef;
+  }
+}
